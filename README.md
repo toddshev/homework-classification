@@ -18,13 +18,13 @@ Easy Ensemble had an extremely high score of .92.  Though the Balanced Random Fo
 #### Which model had the best recall score?
 Easy Ensemble won by a nose, once again.  Though very close with the scores of .90 and .87, respectively.
 
-Which model had the best geometric mean score?
+#### Which model had the best geometric mean score?
 The winner again, not surprisingly, is Easy Ensemble.
 However, with scores this high the model is suspect.  There were extremely few false positives and false negatives, which seems unlikely. As a Lending Club investor, I can assure you they are not that good at predicting loan risk.
 
 There may be a condition of "over-fitting" by using the Easy Ensemble model.  In practice, BRF is very common and with respectable scores, may be just as useful as EE.
 
-Both models should be considered when performing analysis.
+_Both models should be considered when performing analysis._
 
 #### What are the top three features?
 * Total Receipt of Principle
